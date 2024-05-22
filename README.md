@@ -1,5 +1,5 @@
 # Ansible AWX Execution Environment with AWS, AWS CLI, AWS SSM
-[![Publish Docker image](https://github.com/jterpstra1/ansible-awx-ee/actions/workflows/main.yml/badge.svg)](https://github.com/jterpstra1/ansible-awx-ee/actions/workflows/main.yml)
+[![Publish Docker image](https://github.com/jterpstra1/awx-ee/actions/workflows/main.yml/badge.svg)](https://github.com/jterpstra1/awx-ee/actions/workflows/main.yml)
 ## Table of contents
 
 * [What is it?](#what-is-it)
