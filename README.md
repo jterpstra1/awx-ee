@@ -30,6 +30,9 @@ It is based on the official Ansible AWX EE image and mainly includes:
 
 ## Versioning
 
+The image is published to GitHub Container Registry as `ghcr.io/jterpstra1/awx-ee`. Versions up to 0.1.0 were published to Docker Hub as `docker.io/mpjt/awx-ee`; those stay available but get no updates.
+
+
 The versioning of this project is based on semantic versioning, and will start with development from version v0.0.1 and once the first offical release will be made, the versioning will switch to v1.0.0. 
 
 After that we'll follow the normal semantic version ways.
@@ -44,7 +47,7 @@ This image can be set up in AWX by:
 2. Adding a new Execution Environment with the following details:
 
     * Name: `Custom AWX Execution Environment`
-    * Image: `docker.io/mpjt/awx-ee:latest`
+    * Image: `ghcr.io/jterpstra1/awx-ee:latest`
     * Pull policy: `Only pull if not present before running`
 
 3. Applying the execution environment on the relevant job templates.
